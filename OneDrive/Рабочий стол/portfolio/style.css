@@ -1,0 +1,296 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.wrap {
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.header {
+    background-color: #382432;
+}
+
+.header_wrap {
+    display: flex;
+    justify-content: left;
+}
+
+.header_img {
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.header_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.header_title {
+    padding-bottom: 13px;
+    color: white;
+    font-size: 36px;
+}
+
+.header_text {
+    color: white;
+    font-size: 16px;
+}
+
+/* objective */
+
+.objective {
+    background-color: white;
+}
+
+.objective_title {
+    padding-bottom: 25px;
+    padding-top: 65px;
+    font-size: 35px;
+}
+
+.objective_text {
+    padding-bottom: 15px;
+}
+
+/* experince */
+
+.experince {
+    background-color: white;
+}
+
+.experince_title {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.experince_wrapper {
+    display: flex;
+}
+
+.experince_text {
+    padding-right: 92px;
+}
+
+.experince_content {
+    padding-left: 180px;
+}
+
+.web_title {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.experince_text_1 {
+    padding-right: 105px;
+}
+
+.experince_text_2 {
+    padding-right: 105px;
+}
+
+/* skils */
+
+.skils {
+    background-color: white;
+}
+
+.skils_title {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+/* language */
+
+.language {
+    background-color: white;
+    padding-bottom: 25px;
+}
+
+.language_title {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.language_item {
+    list-style: none;
+}
+
+.language_item::before {
+    content: '\25A0';
+    color: black;
+    display: inline-block;
+    width: 1em;
+}
+
+/* form */
+
+.form {
+    background-color: #E5D6D2;
+}
+
+.form-wrap_wpra {
+    background-color: #E5D6D2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.form-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form_input {
+    padding: 0 5px;
+}
+
+.form-input,
+.form-textarea {
+    background-color: #E5D6D2;
+    border: none;
+    border-bottom: solid 1.25px black;
+    width: 200px;
+}
+
+.form-title {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.form-textarea {
+    resize: none;
+    width: 410px;
+}
+
+.form-btn {
+    width: 200px;
+    height: 30px;
+    padding: 10px 0;
+}
+
+.form_btn {
+    width: 200px;
+    height: 30px;
+    border: none;
+    background-color: #3F313E;
+    color: white;
+}
+
+
+
+/* .form {
+    padding-top: 20px;
+    text-align: center;
+    background-color: #F4CCCC;
+    padding-bottom: 20px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.form_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .form_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .form_heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .form_text {
+    font-size: 30px;
+} */
+
+/* .form_input {
+    width: 45%;
+    text-align: left;
+}
+
+.form_wrap_text {
+    background-color: transparent;
+    outline: none;
+    margin: 10px 0;
+    border: 10px;
+} */
+
+
+/* .form_text {}
+
+.form_wrap_text,
+input.from_input {
+    width: 100%;
+} */
+
+/* footer */
+
+.footer {
+    padding: 50px 0 0 0;
+    text-align: center;
+    background-color: #382432;
+}
+
+.contacts_title {
+    padding-bottom: 13px;
+    color: white;
+    font-size: 30px
+}
+
+.contacts_title {
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.contacts_item::before {
+    display: flex;
+    color: black;
+    width: 1em;
+}
+
+.contacts_item {
+    list-style: none;
+
+}
+
+.contacts_list {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.contacts_text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+}
